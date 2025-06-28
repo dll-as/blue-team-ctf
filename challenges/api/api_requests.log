@@ -1,0 +1,4 @@
+2025-06-28 19:40:10,828 ERROR: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0) [in /home/taha/Project/blueteam/blue-team-ctf/challenges/api/app.py:93]
+2025-06-28 19:40:10,829 INFO: 2025-06-28 19:40:10 - IP: 127.0.0.1 - POST /api/data - Status: 500 - UA: curl/8.13.0 - Data: Invalid JSON [in /home/taha/Project/blueteam/blue-team-ctf/challenges/api/app.py:45]
+2025-06-28 19:40:50,177 WARNING: Command injection attempt detected from IP: 127.0.0.1 [in /home/taha/Project/blueteam/blue-team-ctf/challenges/api/app.py:86]
+2025-06-28 19:40:50,179 INFO: 2025-06-28 19:40:50 - IP: 127.0.0.1 - POST /api/data - Status: 400 - UA: curl/8.13.0 - Data: {'command': 'rm -rf /'} [in /home/taha/Project/blueteam/blue-team-ctf/challenges/api/app.py:45]
